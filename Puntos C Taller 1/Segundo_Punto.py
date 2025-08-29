@@ -29,7 +29,7 @@ sistema = signal.TransferFunction(num, den)
 
 
 # Respuesta al escalón
-t = np.linspace(0, 10, 1000)  # 10 segundos
+t = np.linspace(0, 100, 1000)  # 10 segundos
 t, y = signal.step(sistema, T=t)
 
 

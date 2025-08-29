@@ -35,7 +35,7 @@ def procesar_logo(ruta, nombre_logo):
     # Crear tabla
     df = pd.DataFrame(coordenadas, columns=["X", "Y"])
     print(f"\nCoordenadas del contorno para el logo {nombre_logo}:")
-    print(df.to_string(index=False))
+    #print(df.to_string(index=False))
 
     # Dibujar contorno en la imagen
     img_contorno = img.copy()
