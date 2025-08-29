@@ -23,8 +23,8 @@ def obtener_contornos(ruta_imagen):
     return X, Y
 
 # Rutas de los logos (asegúrate de tener las imágenes en el mismo directorio)
-logo1 = 'chevrolet.png'
-logo2 = 'hyundai.png'
+logo1 = r"C:\Users\santi\Documents\ClaseEP1\SantiagoSuazaF\Puntos C Taller 1\chevrolet.png"
+logo2 =  r"C:\Users\santi\Documents\ClaseEP1\SantiagoSuazaF\Puntos C Taller 1\hyundai.png"
 
 # Obtener coordenadas
 X1, Y1 = obtener_contornos(logo1)

@@ -10,7 +10,7 @@ def dibujar_letra(coords, desplazamiento_x=0):
         y_vals = [p[1] for p in linea]
         plt.plot(x_vals, y_vals, 'k', linewidth=2)
 
-# Definir coordenadas para algunas letras (ejemplo simplificado)
+# Coordenadas de las letras
 # Cada letra está compuesta por líneas definidas por pares de puntos [(x1,y1),(x2,y2)]
 letras = {
     'S': [[(0, 2), (1, 2)], [(0, 2), (0, 1)], [(0, 1), (1, 1)], [(1, 1), (1, 0)], [(1, 0), (0, 0)]],
@@ -47,5 +47,5 @@ for nombre in nombres:
 # Configuración del gráfico
 plt.axis('equal')
 plt.axis('off')
-plt.title("Nombres dibujados con líneas", fontsize=14)
+plt.title("Algoritmos de Robotica", fontsize=14)
 plt.show()
